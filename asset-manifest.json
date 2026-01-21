@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/biblio-manager/static/css/main.359cc57a.css",
-    "main.js": "/biblio-manager/static/js/main.9cc6155c.js",
+    "main.js": "/biblio-manager/static/js/main.22fd2f3b.js",
     "index.html": "/biblio-manager/index.html",
     "main.359cc57a.css.map": "/biblio-manager/static/css/main.359cc57a.css.map",
-    "main.9cc6155c.js.map": "/biblio-manager/static/js/main.9cc6155c.js.map"
+    "main.22fd2f3b.js.map": "/biblio-manager/static/js/main.22fd2f3b.js.map"
   },
   "entrypoints": [
     "static/css/main.359cc57a.css",
-    "static/js/main.9cc6155c.js"
+    "static/js/main.22fd2f3b.js"
   ]
 }
