@@ -1,13 +1,16 @@
 export default function Card({name, yearBorn, country, technology, photo}) {
-    let path = '/photos/authors/'
+    let path = `${process.env.PUBLIC_URL}/photos/authors/`
+    
     return (
         <div className="card">
             <img src={`${path}${photo}`} alt={name}/>
             <div className="card-content">
                 <h3>{name}</h3>
-                <p><strong>Année de naissance :</strong> {yearBorn}</p>
-                <p><strong>Pays :</strong> {country}</p>
-                <p><strong>Technologie :</strong> {technology}</p>
+                <div className="card-info">
+                    <span className="info-badge">{country}</span>
+                    <span className="info-badge">{yearBorn}</span>
+                </div>
+                <p className="technology">{technology}</p>
             </div>
         </div>
     )
